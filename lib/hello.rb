@@ -4,6 +4,7 @@ def hello_t(array)
   brothers_with_t = []
   array.each do |tbro|
     brothers_with_t << "Hi, #{tbro}"
+  end
   i = 0
 
   while i < array.length
